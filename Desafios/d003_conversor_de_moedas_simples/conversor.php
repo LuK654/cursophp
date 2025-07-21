@@ -19,7 +19,8 @@
             //Equivalência em dólar
             $dolar = $real / $dolar_atual;
 
-            //"number_format() formata casas com virgula com quantidade após e com ordem dos separadores
+            //"number_format() formata casas com virgula com quantidade após e com ordem dos separadores (Abaixo um codigo simples e um mais profissional)
+
             //echo "Seus R\$" . number_format($real, 2, ",", ".") . "equivalem a US\$" . number_format($dolar, 2, ",", ".");
             
             
